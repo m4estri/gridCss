@@ -5,7 +5,7 @@
     padding: 0;
 }
 body{
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
 }
 .item1 {
     grid-area: header;
@@ -27,11 +27,11 @@ body{
     'footer footer footer footer footer footer';
     grid-gap: 5px;
     padding: 5px;
-    background-color: whitesmoke;
+    background-color: rgb(255, 254, 254);
 }
 
 .grid-container > div {
-    background-color: slateblue;
+    background-color: rgb(230, 227, 227);
     text-align: center;
     padding: 20px 0;
     font-size: 20px;
