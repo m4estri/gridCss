@@ -1,0 +1,39 @@
+/* Estudando sobre CSS-Grid */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blueviolet;
+}
+.item1 {
+    grid-area: header;
+}
+.item3 {
+    grid-area: main;
+}
+.item4 {
+    grid-area: right;
+}
+.item5 {
+    grid-area: footer;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'main main main main main right'
+    'footer footer footer footer footer footer';
+    grid-gap: 5px;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+
+.grid-container > div {
+    background-color: slateblue;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
